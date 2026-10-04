@@ -108,7 +108,7 @@ int main()
 
     // cout<<str.substr(0,4);
 
-    string a = "racecar";
+    // string a = "racecar";
 
     // string b = a;
 
