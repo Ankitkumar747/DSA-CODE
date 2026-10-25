@@ -147,12 +147,12 @@ void deleteFromPosition(int position, Node *&head, Node *&tail)
 
 Node *reverseLLRecursive(Node *&head, Node *prev)
 {
-    Node *curr = head;
-    if (curr == nullptr)
+    if (head == nullptr)
     {
         return prev;
     }
 
+    Node *curr = head;
     Node *forward = curr->next;
 
     curr->next = prev;
@@ -223,6 +223,7 @@ bool checkPelindromeLL(Node *head)
     }
     return true;
 }
+
 int main()
 {
     Node *head = NULL;
